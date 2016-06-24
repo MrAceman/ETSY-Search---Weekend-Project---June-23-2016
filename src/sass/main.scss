@@ -1,179 +1,164 @@
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
-
-.page_container{
-  background-color: #F5F5F1;
-  height:2000px;
+.page_container {
+    background-color: #F5F5F1;
+    height: 2000px;
 }
-
 .top_header {
-  width:100%;
-  height:80px;
-  background-color: #FFFFFF;
-  // background-color: pink;
-
-  .etsy_logo {
-    -webkit-box-sizing:initial;
-    -moz-box-sizing:initial;
-    box-sizing:initial;
-    padding-left:35px;
-    padding-top:20px;
-    height:45px;
-  }
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    // background-color: pink;
+    .etsy_logo {
+        -webkit-box-sizing: initial;
+        -moz-box-sizing: initial;
+        box-sizing: initial;
+        padding-left: 35px;
+        padding-top: 20px;
+        height: 45px;
+    }
 }
 .search_form {
-    -webkit-box-sizing:initial;
-    -moz-box-sizing:initial;
-    box-sizing:initial;
-    display:inline;
-    width:440px;
-    height:35px;
-    margin-left:15px;
-    margin-top:0px;
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+    display: inline;
+    width: 440px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 0;
 }
 .search_text {
     position: relative;
-    top:-18px;
-    padding:8px 15px;
-    margin-right:0px;
-    height:inherit;
-    width:350px;
+    top: -18px;
+    padding: 8px 15px;
+    margin-right: 0;
+    height: inherit;
+    width: 350px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    background:#FBFBFB;
-    border:1px solid #CFCBC8;
-    border-right:0;
-    padding-right:0px;
+    background: #FBFBFB;
+    border: 1px solid #CFCBC8;
+    border-right: 0;
+    padding-right: 0;
 }
 .search_button {
     position: relative;
     left: -4px;
-    top:-18px;
-    height:inherit;
-    width:80px;
-    font-size:16px;
-    text-align:center;
+    top: -18px;
+    height: inherit;
+    width: 80px;
+    font-size: 16px;
+    text-align: center;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding:6px 15px;
-    border:1px solid #2F98B1;
-    border-left:0;
-    background-color:#34A8C4;
-    color:#FFFFFF;
+    padding: 6px 15px;
+    border: 1px solid #2F98B1;
+    border-left: 0;
+    background-color: #34A8C4;
+    color: #FFFFFF;
 }
-.search_button:hover  {
+.search_button:hover {
     -webkit-filter: brightness(110%);
 }
-
-.top_header_right{
-  display:inline;
+.top_header_right {
+    display: inline;
 }
-
-.top_header_right ul li{
-  display:inline;
-  float:right;
-  margin-right:20px;
-  padding-top:20px;
-  color: #34A8C4;
-  text-decoration: none;
-  line-height: 35px;
-
-  a{
+.top_header_right ul li {
+    display: inline;
+    float: right;
+    margin-right: 20px;
+    padding-top: 20px;
     color: #34A8C4;
-    font-size:14px;
-    text-align:right;
     text-decoration: none;
-  }}
-
-.sell_on_etsy:hover{
-    text-decoration: underline;
-}
-.register:hover{
-    text-decoration: underline;
-}
-
-.sign_in {
-  height:35px;
-  width:65px;
-  margin-top:20px;
-  border:1px solid #0192B5;
-  border-radius: 5px;
-  text-align:center;
-  background-color:white;
-}
-
-.sign_in a{
-  position:relative;
-  bottom:21px;
-}
-
-.sign_in:hover{
-  background-color:#F0FBFD;
-}
-
-.top_nav {
-  width:100%;
-  height:40px;
-  background-color: #FFFFFF;
-  border-top: 2px solid #E1E3DF;
-  border-bottom: 2px solid #E1E3DF;
-}
-
-.top_nav_list{
-  margin-top:10px;
-}
-
-.top_nav_list_item{
-  list-style:none;
-  display:inline;
-  margin-left:25px;
-  a{
-    font-size:14px;
-  color:#777777;
-  text-decoration:none;}
-}
-
-  .top_nav_list_item a:hover{
-    -webkit-filter: brightness(50%);
-  }
-
-.info_header {
-  width:100%;
-  height:60px;
-  background-color: #F5F5F1;
-}
-
-.info_header_left {
-  display:block;
-  font-size:13px;
-  padding-left:40px;
-  padding-top:35px;
-}
-
-.cat_nav {
-  font-style:normal;
-  display:inline-block;
-  border-radius:2px;
-  margin-left:35px;
-  padding:15px;
-  width:230px;
-  height:375px;
-  background-color: #FFFFFF;
-  border: 1px solid #D6D7D4;
-  ul{
-    list-style: none;
-    padding-left: 10px;
-    li {
-      padding-left:10px;
-      line-height: 22px;
-      font-size: 14px;
-      a {
-        color: #0191BF;
+    line-height: 35px;
+    a {
+        color: #34A8C4;
+        font-size: 14px;
+        text-align: right;
         text-decoration: none;
-      }
     }
-  }
+}
+.sell_on_etsy:hover {
+    text-decoration: underline;
+}
+.register:hover {
+    text-decoration: underline;
+}
+.sign_in {
+    height: 35px;
+    width: 65px;
+    margin-top: 20px;
+    border: 1px solid #0192B5;
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+}
+.sign_in a {
+    position: relative;
+    bottom: 21px;
+}
+.sign_in:hover {
+    background-color: #F0FBFD;
+}
+.top_nav {
+    width: 100%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-top: 2px solid #E1E3DF;
+    border-bottom: 2px solid #E1E3DF;
+}
+.top_nav_list {
+    margin-top: 10px;
+}
+.top_nav_list_item {
+    list-style: none;
+    display: inline;
+    margin-left: 25px;
+    a {
+        font-size: 14px;
+        color: #777777;
+        text-decoration: none;
+    }
+}
+.top_nav_list_item a:hover {
+    -webkit-filter: brightness(50%);
+}
+.info_header {
+    width: 100%;
+    height: 60px;
+    background-color: #F5F5F1;
+}
+.info_header_left {
+    display: block;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-top: 35px;
+}
+.cat_nav {
+    font-style: normal;
+    display: inline-block;
+    border-radius: 2px;
+    margin-left: 35px;
+    padding: 15px;
+    width: 230px;
+    height: 375px;
+    background-color: #FFFFFF;
+    border: 1px solid #D6D7D4;
+    ul {
+        list-style: none;
+        padding-left: 10px;
+        li {
+            padding-left: 10px;
+            line-height: 22px;
+            font-size: 14px;
+            a {
+                color: #0191BF;
+                text-decoration: none;
+            }
+        }
+    }
 }
