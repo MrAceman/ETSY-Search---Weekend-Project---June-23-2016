@@ -1,21 +1,21 @@
 import $ from 'jquery';
-import {items} from "./items.js";
+import {
+    items
+} from "./items.js";
 
-console.log(items.results[0]);
-
-function item_template (item) {
-  return `<div class="items_container">
-  <p>${item.title}</p>
-  <p>${item.url}</p>
-  <p>${item.price}</p>
-  <p>${item.Shop.shop_name}</p>
-  <p>${item.Shop.url}</p>
-  <p>${item.Images[0].url_fullxfull}</p>
+function item_template(item) {
+    return `<div class="items_container">
+  <div class="item_con"><div class="item_con_img">
+  <img src="${item.Images[0].url_fullxfull}"></div><div class="item_con_text">
+  <p><a href=${item.url} class="item_title_url">${item.title}</a></p>
+  <a href=${item.url} class="item_price_url">${item.price}</a>
+  <a href=${item.Shop.url} class="shop_url">${item.Shop.shop_name}</a></div>
+  </div>
   </div>`;
-  };
+};
 
 var itemHTML = items.results.map(item_template);
 
-var node = $(".items_container");
+var node = $(".item_con");
 
 node.append(itemHTML);
