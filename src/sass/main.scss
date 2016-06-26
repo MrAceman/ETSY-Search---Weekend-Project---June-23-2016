@@ -5,7 +5,7 @@
 }
 .page_container {
     background-color: #F5F5F1;
-    height: 2000px;
+    height: 3000px;
 }
 .top_header {
     width: 100%;
@@ -30,9 +30,9 @@
     height: 35px;
     margin-left: 15px;
     margin-top: 0;
-    font-size: 0px;
-    .search_text .search_button{
-      font-size: 14px;
+    font-size: 0;
+    .search_text .search_button {
+        font-size: 14px;
     }
 }
 .search_text {
@@ -114,7 +114,7 @@
     background-color: #FFFFFF;
     border-top: 2px solid #E1E3DF;
     border-bottom: 2px solid #E1E3DF;
-    }
+}
 .top_nav_list {
     margin-top: 10px;
 }
@@ -130,9 +130,8 @@
 }
 .top_nav_list_item a:hover {
     -webkit-filter: brightness(50%);
-    padding-bottom:9px;
+    padding-bottom: 9px;
     border-bottom: solid 2px #f25601;
-
 }
 .info_header {
     width: 100%;
@@ -145,7 +144,6 @@
     padding-left: 40px;
     padding-top: 35px;
 }
-
 .cat_nav {
     font-style: normal;
     display: inline-block;
@@ -153,12 +151,12 @@
     margin-left: 35px;
     padding: 15px;
     width: 230px;
-    height: 375px;
+    height: 370px;
     background-color: #FFFFFF;
     border: 1px solid #D6D7D4;
     ul {
         list-style: none;
-        width:inherit;
+        width: inherit;
         padding-left: 10px;
         li {
             padding-left: 10px;
@@ -171,67 +169,146 @@
         }
     }
 }
-
 .main_container {
-  width:100%;
-  display: flex;
-  height:auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
 }
-//
-// .items_container {
-//   background-color: #F5F5F1;
-//   // max-width:800px;
-//   // max-height:275px;
-//   width:900px;
-// }
-
+.items_container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    background-color: #F5F5F1;
+    width: 70%;
+    min-width: 50%;
+}
 .item_con {
-  display:inline-block;
-  border: 1px solid #dddddd;
-  background-color: #FFFFFF;
-  float:left;
-  clear:both;
-  max-width: 250px;
-  max-height:250px;
-  margin:10px;
-  a{
-      text-decoration:none;
-  }
+    border: 1px solid #dddddd;
+    background-color: #FFFFFF;
+    float: left;
+    clear: both;
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px;
+    a {
+        text-decoration: none;
+    }
 }
-
-.item_con img{
+.item_con img {
     width: 100%;
     height: 200px;
 }
-
 .item_title_url {
-  clear:right;
-   height: 20px;
-  width: 40px;
-  color:#444444;
-  font-size:12px;
-  padding-left:5px;
-  padding-right:5px;
+    clear: right;
+    height: 20px;
+    width: 40px;
+    color: #444444;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
-
- a.item_title_url{
-  white-space:nowrap;
+a.item_title_url {
+    white-space: nowrap;
 }
 .item_con_text {
-  text-overflow: ellipsis;
-  overflow:hidden;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
-
 .item_price_url {
-  float:right;
-  color:#78C042;
-  font-size:12px;
-  padding-right:5px;
+    float: right;
+    color: #78C042;
+    font-size: 12px;
+    padding-right: 5px;
 }
-
 .shop_url {
-  color:#9A9A9A;
-  font-size:12px;
-  padding-left:5px;
-  margin-bottom:10px;
+    color: #9A9A9A;
+    font-size: 12px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+.related_to_search {
+    // height:80px;
+    width: 50%;
+    display: flex;
+    margin-left: 20px;
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    li {
+        flex: 1;
+        padding-left: 15px;
+        font-size: 12px;
+    }
+}
+.footer_container {
+    display: inline-block;
+    // width:100%;
+    ul {
+        font-size: 14px;
+        list-style: none;
+        width: 150px;
+        padding-left: 10px;
+        margin-left: 50px;
+        li {
+            line-height: 22px;
+            font-size: 12px;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+.footer_col_1 {
+    position: relative;
+    top: -15px;
+    display: inline-block;
+}
+.open_a_shop {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 25px;
+    width: 120px;
+    border: 1px solid #0192B5;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0191BF;
+}
+a.openshop {
+    color: white;
+}
+.sell_on_etsy {
+    a {
+        color: #0191BF;
+    }
+}
+.footer_col_2 {
+    position: relative;
+    top: -67px;
+    display: inline-block;
+    a {
+        color: #0191BF;
+    }
+}
+.footer_col_3 {
+    display: inline-block;
+    a {
+        color: #0191BF;
+    }
+}
+.footer_col_4 {
+    position: relative;
+    top: -43px;
+    display: inline-block;
+    a {
+        color: #0191BF;
+    }
+}
+.footer_col_5 {
+    position: relative;
+    top: -85px;
+    display: inline-block;
+    a {
+        color: #0191BF;
+    }
 }
