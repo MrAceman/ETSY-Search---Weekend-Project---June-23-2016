@@ -4,7 +4,7 @@ This HTML, CSS, and JS was created over the weekend of June 23rd through June 26
 
 The primary purposes of this exercise were to work on importing and displaying JSON data and to continue working on HTML & CSS proficiency.  Additionally, jQuery was utilized to access the DOM and template literals were used in order to push updated HTML to the page.
 
-This project has been deployed to Surge at: tiy-niclaswillems-etsy_search.surge.sh
+This project has been deployed to Surge at: http://tiy-niclaswillems-etsy_search.surge.sh
 
 If you'd like to check out more of my work, please visit my GitHub page at https://github.com/MrAceman
 
