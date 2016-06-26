@@ -15,26 +15,16 @@ function item_template(item) {
 };
 
 var itemHTML = items.results.map(item_template);
-
-// var node = $(".main_container");works
-  var node = $(".items_container");
-
-
+var node = $(".items_container");
 node.append(itemHTML);
-
-// The previous code populates the main search results
 
 // The following code populates the related to search topics
 
 function related_template(item) {
-    return `<div class="related_to_search"><div class="relateditem">
-  <li class=related_item">${item.tags[0]}</div>
-  </div>`;
+    return `<li class="related_item"><a href=#${item.tags[0]}
+    class="related_item_a">${item.tags[0]}</a></li>`;
 };
 
-
 var relatedHTML = items.results.map(related_template);
-
-var relatednode = $(".related_to_search");
-
-relatednode.append("Related to whatever you searched for" + relatedHTML);
+var relatednode = $(".rts_list");
+relatednode.append(relatedHTML);
